@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/old-paper-texture-background_118047-1365.jpg?size=626&ext=jpg");
+    margin : 96px 96px 96px 96px;
+}
+
+img {
+    filter: grayscale(100%);
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3 {
+    font-weight: bold;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+
+    border: 3px solid rgb(124, 119, 99);
+    border-style: double;
+    padding: 25px 50px 25px;
+}
+
+main{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 44, 44);
+    text-align: center;
+
+    border: 3px solid rgb(124, 119, 99);
+    border-style: double;
+}
+aside{
+    float: left;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 44, 44);
+    text-align: left;
+
+    border: 3px solid rgb(124, 119, 99);
+    border-style: double;
+    padding: 25px 30px 35px;
+
+    width: 50%;
+}
+
+footer{
+    float: right;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(78, 78, 78);
+    text-align: left;
+
+    border: 3px solid rgb(124, 119, 99);
+    border-style: double;
+    padding: 25px 25px 35px;
+
+    width: 35%;
+}
