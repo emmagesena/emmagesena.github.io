@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Profile page</title>
-   </head>
-   <body style="background-color:mediumseagreen;">
-      <h1 style="color:white;">Profile Page - Emma Ogle</h1>
-     <img src="https://emmagesena.github.io/bacs200/hat.jpg">
-      <p style="color:white;">Hi! I'm Emma and I'm a sophomore in Software Engineering. I am excited to learn the programming languages learned to develop websites.
-   My hobbies include musical theater, freshwater fish-keeping, and anything arts and crafts related. </p>
-   </body>
+<title>BACS 200 Profile Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    h3 {
+        font-weight: bold;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    .skill {
+      font-weight: bold;
+    }
+
+    .profile{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:350px; 
+      border-radius:250px; 
+    }
+
+    .greenback{
+      background-color:rgb(204, 229, 194);
+      border-radius: 25px;
+      text-align: center;
+    }
+
+    .hlight{
+      color:rgb(117, 143, 107);
+      font-weight: bold;
+    }
+
+</style>
+<body>
+
+  <header>
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="https://emmagesena.github.io/bacs200/index.html" class="w3-bar-item w3-button"><b>Home</b></a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="https://emmagesena.github.io/bacs200/index.html#projects" class="w3-bar-item w3-button">Projects</a>
+          <a href="https://emmagesena.github.io/bacs200/profile.html" class="w3-bar-item w3-button">About Me</a>
+          <a href="https://www.linkedin.com/in/emma-ogle-aa4117177/" class="w3-bar-item w3-button">Linkedin</a>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+<!-- Page content -->
+
+
+<!--Photo-->
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGcm2EaKuHP7g/profile-displayphoto-shrink_400_400/0/1633020075265?e=1640822400&v=beta&t=Ql84gm-GtGYcNx3T5rVzBz9eGyABZQ9e5K56on5IbzQ" class="profile" alt="me">
+    <h1 style="text-align:center">Hi, I'm <span class="hlight">Emma</span></h1>
+  </div> 
+  <div class="w3-col 39 m6 w3-margin-bottom">
+     <!-- About Me Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <p>
+        Hi! I am a sophomore at University of Northern Colorado. Learning about software engineering has been exciting. Not only have I enjoyed problem-solving 
+        and learning how to code with style, but I've also been able to tap into my creative side. I've always preferred creative hobbies such as visual art,
+        music, and musical theater. 
+    </p>
+  </div>
+
+
+  <!--Resume Section-->
+ 
+  <div class="w3-row-padding">
+    
+    <!--Work Experience-->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 greenback">Work Experience</h3>
+      <p class="w3-border-bottom w3-border-light-grey w3-padding-16" style="font-weight:bold">Learning Assistant - University of Northern Colorado</p>
+      <p style="font-style: italic;">
+          August 2021 - Present
+          <ul>
+            <li>
+              Supported students in comprehension and completion of Python and Java assignments
+            </li>
+            <li>
+              Identified technical problems and helped students understand and solve them
+            </li>
+            <li>
+              Delivered feedback using positive reinforcement techniques to encourage, motivate and build confidence in students.
+            </li>
+          </ul>
+      </p>
+    </div>
+
+    <!--Education-->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3 class="w3-border-bottom w3-padding-16 greenback">Education</h3>
+      <p class="w3-border-bottom w3-border-light-grey w3-padding-16" style="font-weight:bold">Bachelor of Science in Software Engineering - University of Northern Colorado
+      <span style="font-style: italic;">August 2020 - Present</span>  
+      </p>
+  </div>
+
+
+  <!--Technical Skills-->
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <h3 class="w3-border-bottom w3-padding-16 greenback">Technical Skills</h3>
+    <p>
+        <ul>
+          <li>
+            <span class="skill">Web Services: </span>HTML, CSS, Bootstrap, Javascript
+          </li>
+          <li>
+            <span class="skill">Languages: </span>Java, C#, Python
+          </li>
+          <li>
+            <span class="skill">Software: </span>IntelliJ, PyCharm, Visual Studio, VS Code, Excel, Access, Tableau
+          </li>
+          <li>
+            <span class="skill">OS: </span>Microsoft Windows
+          </li>
+        </ul>
+    </p>
+  </div>
+
+  <!---Soft Skills-->
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <h3 class="w3-border-bottom w3-padding-16 greenback">Soft Skills</h3>
+    <p>
+        <ul>
+          <li>
+            Effective communication
+          </li>
+          <li>
+            Professionalism
+          </li>
+          <li>
+            Team worker
+          </li>
+          <li>
+            Problem-Solving
+          </li>
+          <li>
+            Creativity
+          </li>
+        </ul>
+    </p>
+  </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+ 
+
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
 </html>
