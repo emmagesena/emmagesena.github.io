@@ -2,100 +2,125 @@
 <html>
     <head>
         <title>Project 6 - Superhero Gallery</title> 
-        <style> 
-        body{
-            background-color:rgb(16, 101, 112);
-        }
-        h1 {
-            font-family:Arial, Helvetica, sans-serif;
-            color : rgb(186, 195, 204)
-        }
-        th{
-            font-family:Arial, Helvetica, sans-serif;
-            background-color:sandybrown;
-            color:rgb(16, 101, 112)
-        }
-        td{
-            font-family:Arial, Helvetica, sans-serif;
-            background-color:rgb(241, 215, 192);
-            color:rgb(16, 101, 112)
-        }
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
 
+    .clrback{
+      color: white;
+      background-color:rgb(0, 0, 0);
+      border-radius: 25px;
+      text-align: center;
+    }
 
+    .hlight{
+      color:rgb(55, 54, 58);
+      font-weight: bold;
+    }
+
+    .idpic {
+        width:275px; 
+        height:200px;
+        border-radius: 500px;
+        filter:saturate(150%);
+    }
         </style>
     </head>
     
     <body>
+        
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="https://emmagesena.github.io/bacs200/index.html" class="w3-bar-item w3-button"><b>Home</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="https://emmagesena.github.io/bacs200/index.html#projects" class="w3-bar-item w3-button">Projects</a>
+        <!-- CHECK TO MAKE SURE THIS WORKS AFTER UPLOAD-->
+        <a href="https://emmagesena.github.io/bacs200/profile.html" class="w3-bar-item w3-button">About Me</a>
+        <a href="https://www.linkedin.com/in/emma-ogle-aa4117177/" class="w3-bar-item w3-button">Linkedin</a>
+      </div>
+    </div>
+  </div>
 
-        <h1>Superhero Gallery</h1>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Alias</th>
-                <th>Image</th>
-                <th>Superpower</th>
-                <th>Weakness</th>
-            </tr>
-            <tr>
-                <td>Peter Parker</td>
-                <td>Spiderman</td>
-                <td> <a href="https://cdn.vox-cdn.com/thumbor/9VgRbWtM8UiDN8iIA5oyIIR_RqQ=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22024938/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.png">
-                    <img src="https://cdn.vox-cdn.com/thumbor/9VgRbWtM8UiDN8iIA5oyIIR_RqQ=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22024938/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.png" width="200">
-                </a>
-                 </td>
-                 <td>Super Strength and Agility</td>
-                 <td>Ethyl Chloride</td>
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avas_p_0189_ss13_copy.jpg" 
+    alt="banner" width="1500" height="400" style="filter:grayscale()">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Superhero Gallery</b></span></h1>
+    </div>
+  </header>
 
-            </tr>
-            <tr>
-                <td>James "Logan" Howlett</td>
-                <td>Wolverine</td>
-                <td> <a href="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464175888-hugh-jackman-muscles-claws-in-the-wolverine.jpg">
-                    <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464175888-hugh-jackman-muscles-claws-in-the-wolverine.jpg" width="200">
-                </a>
-                 </td>
-                <td>Animal-keen senses and Regenerative Abilities</td> 
-                <td>Adamantium poisoning</td>
-            </tr>
-            <tr>
-                <td>Thor</td>
-                <td>None</td>
-                <td> <a href="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780">
-                    <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780" width="200">
-                </a>
-                 </td>
-                <td>God of Thunder and Lightning</td> 
-                <td>No distinct physical weakness, but short-temperedness can be a flaw</td>
-            </tr>
-            <tr>
-                <td>Tony Stark</td>
-                <td>Iron Man</td>
-                <td> <a href="https://www.looper.com/img/gallery/weaknesses-you-didnt-realize-iron-man-had/intro-1553551540.jpg">
-                    <img src="https://www.looper.com/img/gallery/weaknesses-you-didnt-realize-iron-man-had/intro-1553551540.jpg" width="200">
-                </a>
-                 </td>
-                <td>(With Armor) Flight, Strength and Durability, Array of Weapons</td> 
-                <td>Dependence on Technology</td>
-            </tr>
-            <tr>
-                <td>Bruce Banner</td>
-                <td>The Hulk</td>
-                <td> <a href="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg">
-                    <img src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" width="200">
-                </a>
-                 </td>
-                <td>Super Strength, Size and Durability</td> 
-                <td>Can only use powers when in "Hulk Mode", Limited intelligence in "Hulk mode"</td>
-            </tr>
+  <div class="w3-row-padding" style="padding-top:50px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://cdn.vox-cdn.com/thumbor/9VgRbWtM8UiDN8iIA5oyIIR_RqQ=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22024938/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.png">
+            <img src="https://cdn.vox-cdn.com/thumbor/9VgRbWtM8UiDN8iIA5oyIIR_RqQ=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22024938/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.png" 
+            class="idpic">
+        </a>
+      <h3>Spiderman</h3>
+      <p class="w3-opacity">Peter Parker</p>
+      <p> 
+        <span class="hlight">Superpower:</span> Super Strength and Agility
+        <span class="hlight"><br>Weakness:</span> Ethyl Chloride
+      </p>
+      <a href="https://marvel.fandom.com/wiki/Spider-Man"><button class="w3-button w3-light-grey w3-block">Learn More About Me</button></a>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464175888-hugh-jackman-muscles-claws-in-the-wolverine.jpg">
+            <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/21/1464175888-hugh-jackman-muscles-claws-in-the-wolverine.jpg" class="idpic">
+        </a>
+        </a>
+      <h3>Wolverine</h3>
+      <p class="w3-opacity">James "Logan" Howlett</p>
+      <p> 
+          <span class="hlight">Superpower:</span> Animal-keen senses and Regenerative Abilities
+          <span class="hlight"><br>Weakness:</span> Adamantium poisoning
+      <a href="https://marvel.fandom.com/wiki/Wolverine"><button class="w3-button w3-light-grey w3-block">Learn More About Me</button></a>
+    </div>
 
 
-            
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780">
+            <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780" class="idpic">
+        </a>
+      <h3>Thor</h3>
+      <p class="w3-opacity">Thor</p>
+      <p> 
+          <span class="hlight">Superpower:</span> God of Thunder and Lightning
+          <span class="hlight"><br>Weakness:</span> No distinct physical weakness, but short-temperedness can be a flaw
+      <a href="https://marvel.fandom.com/wiki/Thor"><button class="w3-button w3-light-grey w3-block">Learn More About Me</button></a>
+    </div>
 
-        </table>
 
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://www.looper.com/img/gallery/weaknesses-you-didnt-realize-iron-man-had/intro-1553551540.jpg">
+            <img src="https://www.looper.com/img/gallery/weaknesses-you-didnt-realize-iron-man-had/intro-1553551540.jpg" class="idpic">
+        </a>
 
+      <h3>Iron Man</h3>
+      <p class="w3-opacity">Tony Stark</p>
+      <p> 
+          <span class="hlight">Superpower:</span> (With Armor) Flight, Strength and Durability, Array of Weapons
+          <span class="hlight"><br>Weakness:</span> Dependence on Technology
+      <a href="https://marvel.fandom.com/wiki/Iron_Man"><button class="w3-button w3-light-grey w3-block">Learn More About Me</button></a>
+    </div>
+  </div>
 
+  <div class="w3-row-padding" style="padding-top:50px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg">
+            <img src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" class="idpic">
+        </a>
+      <h3>The Hulk</h3>
+      <p class="w3-opacity">Bruce Banner</p>
+      <p> 
+          <span class="hlight">Superpower:</span> Super Strength, Size and Durability
+          <span class="hlight"><br>Weakness:</span> Can only use powers when in "Hulk Mode", Limited intelligence in "Hulk mode"
+      <a href="https://marvel.fandom.com/wiki/Hulk"><button class="w3-button w3-light-grey w3-block">Learn More About Me</button></a>
+    </div>
+  </div>
 
-
+    </div>
+  
     </body>
 </html>
