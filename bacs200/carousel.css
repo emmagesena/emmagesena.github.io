@@ -6,17 +6,17 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-  background-color:rgba(86, 124, 68, 0.966);
+  background-color:rgba(150, 163, 128, 0.966);
 }
 h2{
-  color:gainsboro
+  color:rgb(23, 53, 32)
 }
 p {
-  color:gainsboro
+  color:rgb(235, 250, 232)
 }
 
 a{
-  color: rgb(130, 148, 172)
+  color: rgb(63, 80, 104)
 }
 
 
